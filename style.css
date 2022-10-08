@@ -59,6 +59,7 @@ img[src$=".jpg"] {
     font-size: 17;
     text-shadow: 0.2px 1px grey;
     
+    
 
 }
 
@@ -86,18 +87,20 @@ img[src$=".jpg"] {
     left: 35%;
     position: fixed;
     bottom: 15px;
+   
 }
 
 #fix1{
     margin-left: 3%;
     font-size: medium;
     
+    
 }
 
 #fix2{
-    margin-top: -8%;
-    margin-left: 60%;
-    font-size: 12px;
+     margin-top: -8%;
+     font-size: 12px;
+    margin-left: 60%; 
 }
 
 
@@ -125,8 +128,10 @@ p{
  #d1{
     border: 3px solid grey;
     border-radius: 1px;
-    margin-right: 51%;
-    margin-left: 0.5%;
+    /* margin-right: 51%; */
+    margin: 0.5%;
+    width: 47.75%;
+   float: left;
     
 
 }
@@ -134,21 +139,28 @@ p{
 #d2{
     border: 3px solid grey;
     border-radius: 1px; 
-    margin-left: 51%;
-    margin-top: -35.5%;
-    margin-right: 0.5%;
+    /* margin-left: 51%;
+    margin-top: -35.5%; */
+     margin: 0.5%;  
+     width: 47.75%;
+     float: right; 
     
      
 } 
 
 #d3{
-    border: 3px solid grey;
+    border: 3px solid grey; 
     border-radius: 1px;
     margin: 0.5%;
+    clear: right;
 
 }
 
 body{
-    background-color: lightgoldenrodyellow;
+      background-color: lightgoldenrodyellow; 
+     
+     /* background: url(./Images/warturtle.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;      */
 }
 
